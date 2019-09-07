@@ -1,0 +1,164 @@
+.page-service-btn-wrapper{
+  width: 100%;
+  padding-top: 10px;
+}
+
+.el-table{
+  .el-table__header-wrapper thead .cell{
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+  }
+  .el-table__body .cell{
+    font-size: 12px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    img{
+      max-width: 50px;
+      max-height: 50px;
+    }
+    a{
+      color: #409EFF;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.page-table-wrapper{
+  width: 100%;
+  padding-top: 10px;
+}
+
+.page-page-wrapper{
+  width: 100%;
+  padding: 10px 0;
+  text-align: right;
+}
+
+.submit-dialog-btn{
+  width: 100%;
+  text-align: right;
+}
+
+
+.avatar-uploader .el-upload {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.avatar-uploader .el-upload:hover {
+  border-color: #409EFF;
+}
+.avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+}
+.avatar {
+  max-width: 150px;
+  max-height: 150px;
+  display: block;
+}
+
+.upload-list-wrapper{
+  width: 100%;
+  padding-top: 10px;
+  &-item{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #666;
+    overflow: hidden;
+    cursor: pointer;
+    &:not(:last-child){
+      margin-right: 8px;
+    }
+    &:hover &-action{
+      opacity: 1;
+    }
+    .el-upload-list__item-status-label{
+      position: absolute;
+      display: block;
+      right: -15px;
+      top: -6px;
+      width: 40px;
+      height: 24px;
+      background: #13ce66;
+      text-align: center;
+      transform: rotate(45deg);
+      box-shadow: 0 0 1pc 1px rgba(0,0,0,.2);
+      i{
+        font-size: 12px;
+        margin-top: 11px;
+        transform: rotate(-45deg);
+        color: #fff;
+      }
+    }
+    &-action{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 10;
+      left: 0;
+      top: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+      transition: opacity 0.3s;
+      color: #fff;
+      font-size: 20px;
+      text-align: center;
+      line-height: 148px;
+      opacity: 0;
+    }
+    img{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+}
+
+.video-wrapper{
+  width: 100%;
+  padding-top: 10px;
+  video{
+    max-width: 100%;
+  }
+}
+
+.popover-wrapper{
+  width: 100%;
+  padding: 6px;
+  text-align: left;
+}
+.popover-wrapper-btn{
+  width: 100%;
+  text-align: right;
+  padding: 6px;
+}
+
+.el-button+.el-button{
+  margin-left: 0;
+}
+.el-button{
+  margin: 0 2px;
+}
+
+.header-radio{  //签到和订单扫码radio框属性
+  width: 100%;
+  padding: 20px 0 10px 25px;
+}

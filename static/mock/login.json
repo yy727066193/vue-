@@ -1,0 +1,295 @@
+{
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "modules": [
+      {
+        "id": 1,
+        "name": "轮播图",
+        "children": [
+          {
+            "id": 2,
+            "path": "indexBanner",
+            "name": "首页轮播图",
+            "parentId": 1
+          },
+          {
+            "id": 3,
+            "path": "newProductBanner",
+            "name": "新品轮播图",
+            "parentId": 1
+          },
+          {
+            "id": 4,
+            "path": "fixTimeBanner",
+            "name": "限时购轮播图",
+            "parentId": 1
+          },
+          {
+            "id": 5,
+            "path": "intBanner",
+            "name": "积分轮播图",
+            "parentId": 1
+          },
+          {
+            "id": 6,
+            "path": "otherBanner",
+            "name": "其他轮播图",
+            "parentId": 1
+          },
+          {
+            "id": 7,
+            "path": "groupBanner",
+            "name": "拼团轮播图",
+            "parentId": 1
+          },
+          {
+            "id": 8,
+            "path": "incrementBanner",
+            "name": "增值服务轮播图",
+            "parentId": 1
+          },
+          {
+            "id": 9,
+            "path": "shopkeeperRecommendBanner",
+            "name": "店长推荐轮播图",
+            "parentId": 1
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "商品",
+        "children": [
+          {
+            "id": 11,
+            "path": "shopList",
+            "name": "商品列表",
+            "parentId": 10
+          },
+          {
+            "id": 12,
+            "path": "commodityBrand",
+            "name": "商品品牌",
+            "parentId": 10
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "门店",
+        "children": [
+          {
+            "id": 14,
+            "path": "storeList",
+            "name": "门店列表",
+            "parentId": 13
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "会员",
+        "children": [
+          {
+            "id": 16,
+            "path": "memberGrade",
+            "name": "会员等级",
+            "parentId": 15
+          },
+          {
+            "id": 17,
+            "path": "memberList",
+            "name": "会员列表",
+            "parentId": 15
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "订单",
+        "children": [
+          {
+            "id": 19,
+            "path": "orderList",
+            "name": "订单列表",
+            "parentId": 18
+          },
+          {
+            "id": 20,
+            "path": "carryQrCode",
+            "name": "自提扫码",
+            "parentId": 18
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "限时购",
+        "children": [
+          {
+            "id": 22,
+            "path": "fixTimeSet",
+            "name": "限时购时间设置",
+            "parentId": 21
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "导航",
+        "children": [
+          {
+            "id": 24,
+            "path": "navSet",
+            "name": "导航设置",
+            "parentId": 23
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "签到",
+        "children": [
+          {
+            "id": 26,
+            "path": "signList",
+            "name": "签到列表",
+            "parentId": 25
+          },
+          {
+            "id": 27,
+            "path": "signQrCode",
+            "name": "签到扫码",
+            "parentId": 25
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "path": "intSet",
+        "name": "积分设置"
+      },
+      {
+        "id": 29,
+        "path": "indexUrl",
+        "name": "首页链接"
+      },
+      {
+        "id": 30,
+        "name": "邀请",
+        "children": [
+          {
+            "id": 31,
+            "path": "invitationList",
+            "name": "邀请列表",
+            "parentId": 30
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "name": "短信",
+        "children": [
+          {
+            "id": 33,
+            "path": "shortMessageList",
+            "name": "短信列表",
+            "parentId": 32
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "name": "积分记录",
+        "children": [
+          {
+            "id": 35,
+            "path": "intLogList",
+            "name": "积分记录列表",
+            "parentId": 34
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "name": "优惠劵",
+        "children": [
+          {
+            "id": 37,
+            "path": "couponsList",
+            "name": "优惠劵列表",
+            "parentId": 36
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "name": "拼团",
+        "children": [
+          {
+            "id": 39,
+            "path": "gridList",
+            "name": "拼团列表",
+            "parentId": 38
+          },
+          {
+            "id": 40,
+            "path": "gridSet",
+            "name": "拼团设置",
+            "parentId": 38
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "path": "dataTotal",
+        "name": "数据统计"
+      },
+      {
+        "id": 42,
+        "path": "incrementService",
+        "name": "增值服务"
+      },
+      {
+        "id": 43,
+        "name": "管理",
+        "children": [
+          {
+            "id": 44,
+            "path": "log",
+            "name": "日志",
+            "parentId": 43
+          },
+          {
+            "id": 45,
+            "path": "modules",
+            "name": "模块管理",
+            "parentId": 43
+          },
+          {
+            "id": 46,
+            "path": "user",
+            "name": "账号管理",
+            "parentId": 43
+          },
+          {
+            "id": 47,
+            "path": "role",
+            "name": "角色管理",
+            "parentId": 43
+          },
+          {
+            "id": 48,
+            "path": "dataBack",
+            "name": "数据备份",
+            "parentId": 43
+          }
+        ]
+      }
+    ],
+    "userInfo": {
+      "userName": "超级管理员"
+    }
+  }
+}

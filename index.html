@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>终端微商管理平台</title>
+    <link href="https://hrlb-online.oss-cn-beijing.aliyuncs.com/images/hr-logo-icon.ico" rel="shortcut icon" type=image/x-icon>
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://hrlb-online.oss-cn-beijing.aliyuncs.com/web/tool/ElementUi/2.3.3/index.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script>
+      (function () {
+        var lessThenIE8 = function () {
+          var UA = navigator.userAgent,
+            isIE = UA.indexOf('MSIE') > -1,
+            v = isIE ? /\d+/.exec(UA.split(';')[1]) : 'no ie';
+          return v <= 8;
+        }();
+        if(lessThenIE8){
+          alert('您的浏览器版本过低，建议使用高版本IE(IE9+)、谷歌、火狐、360浏览器等');
+          setTimeout(function () {
+            window.location.href = 'http://rj.baidu.com/soft/detail/14744.html?ald'
+          }, 2000)
+        }
+      })()
+    </script>
+    <script type="text/javascript" src="./static/config/globalConfig.js"></script>
+    <script type="text/javascript" src="https://hrlb-online.oss-cn-beijing.aliyuncs.com/web/tool/polyfill/6.23.0/polyfill.min.js"></script>
+    <script type="text/javascript" src="https://hrlb-online.oss-cn-beijing.aliyuncs.com/web/tool/vue/2.5.2/vue.min.js"></script>
+    <script type="text/javascript" src="https://hrlb-online.oss-cn-beijing.aliyuncs.com/web/tool/ElementUi/2.3.3/index.js"></script>
+  </body>
+</html>

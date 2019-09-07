@@ -1,0 +1,83 @@
+{
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "list": [
+      {
+        "id": 1,
+        "imageUrl": "https://hrlb-online.oss-cn-beijing.aliyuncs.com/2018/05/30/thumbnail/15276652265979c3rt5.jpg@!w800",
+        "href": "http://hrlb.io97.com/public/index.php/shopDetail?id=1",
+        "audit": 0,
+        "createTime": "2018-05-30 15:27:03",
+        "updateTime": "2018-05-30 15:27:03"
+      },
+      {
+        "id": 3,
+        "imageUrl": "https://hrlb-online.oss-cn-beijing.aliyuncs.com/2018/06/12/15287692566302tz8np.jpg@!w800",
+        "href": "http://hrlb.io97.com/public/index.php/shopDetail?id=1",
+        "audit": 1,
+        "createTime": "2018-05-30 15:27:03",
+        "updateTime": "2018-05-30 15:27:03"
+      },
+      {
+        "id": 4,
+        "imageUrl": "https://hrlb-online.oss-cn-beijing.aliyuncs.com/2018/05/30/thumbnail/15276652265979c3rt5.jpg@!w800",
+        "href": "http://hrlb.io97.com/public/index.php/shopDetail?id=1",
+        "audit": 1,
+        "createTime": "2018-05-30 15:27:03",
+        "updateTime": "2018-05-30 15:27:03"
+      },
+      {
+        "id": 5,
+        "imageUrl": "https://hrlb-online.oss-cn-beijing.aliyuncs.com/2018/05/30/thumbnail/15276652265979c3rt5.jpg@!w800",
+        "href": "http://hrlb.io97.com/public/index.php/shopDetail?id=1",
+        "audit": 0,
+        "createTime": "2018-05-30 15:27:03",
+        "updateTime": "2018-05-30 15:27:03"
+      },
+      {
+        "id": 6,
+        "imageUrl": "https://hrlb-online.oss-cn-beijing.aliyuncs.com/2018/05/30/thumbnail/15276652265979c3rt5.jpg@!w800",
+        "href": "http://hrlb.io97.com/public/index.php/shopDetail?id=1",
+        "audit": 0,
+        "createTime": "2018-05-30 15:27:03",
+        "updateTime": "2018-05-30 15:27:03"
+      },
+      {
+        "id": 7,
+        "imageUrl": "https://hrlb-online.oss-cn-beijing.aliyuncs.com/2018/05/30/thumbnail/15276652265979c3rt5.jpg@!w800",
+        "href": "http://hrlb.io97.com/public/index.php/shopDetail?id=1",
+        "audit": 0,
+        "createTime": "2018-05-30 15:27:03",
+        "updateTime": "2018-05-30 15:27:03"
+      },
+      {
+        "id": 8,
+        "imageUrl": "https://hrlb-online.oss-cn-beijing.aliyuncs.com/2018/05/30/thumbnail/15276652265979c3rt5.jpg@!w800",
+        "href": "http://hrlb.io97.com/public/index.php/shopDetail?id=1",
+        "audit": 0,
+        "createTime": "2018-05-30 15:27:03",
+        "updateTime": "2018-05-30 15:27:03"
+      },
+      {
+        "id": 9,
+        "imageUrl": "https://hrlb-online.oss-cn-beijing.aliyuncs.com/2018/05/30/thumbnail/15276652265979c3rt5.jpg@!w800",
+        "href": "http://hrlb.io97.com/public/index.php/shopDetail?id=1",
+        "audit": 0,
+        "createTime": "2018-05-30 15:27:03",
+        "updateTime": "2018-05-30 15:27:03"
+      },
+      {
+        "id": 10,
+        "imageUrl": "https://hrlb-online.oss-cn-beijing.aliyuncs.com/2018/05/30/thumbnail/15276652265979c3rt5.jpg@!w800",
+        "href": "http://hrlb.io97.com/public/index.php/shopDetail?id=1",
+        "audit": 0,
+        "createTime": "2018-05-30 15:27:03",
+        "updateTime": "2018-05-30 15:27:03"
+      }
+    ],
+    "total": 10,
+    "pageNum": 1,
+    "pageSize": 10
+  }
+}
